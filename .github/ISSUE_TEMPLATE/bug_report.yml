@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible ReproPack problem without sensitive data.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste real secrets, private logs, proprietary code, email addresses, or absolute user paths. Use synthetic replacements.
+  - type: input
+    id: version
+    attributes:
+      label: ReproPack version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Synthetic reproduction steps
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

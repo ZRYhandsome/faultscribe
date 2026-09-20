@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+reports/
+example-input/
+example-output/
+.repropack/
+
+# Keep application drafts and personal material local by default.
+application-private/
