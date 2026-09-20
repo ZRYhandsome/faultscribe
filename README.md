@@ -79,7 +79,7 @@ The repository's status is deliberately split by evidence:
 | Local unit tests | Passed on 2026-09-20: 14 tests with Python 3.9 |
 | Local command smoke tests | Passed on 2026-09-20: isolated install; `doctor`, `report`, and `redact`; synthetic Unicode input; source-log hash unchanged |
 | GitHub Actions CI | Runs on pushes and pull requests; check the repository Actions tab for the current remote result |
-| Windows/Linux behavior | Not yet verified on those platforms |
+| Windows/Linux behavior | Ubuntu CI installation, unit tests, and command-help check have passed; full Linux workflows, other distributions, and Windows remain unverified |
 | PyPI packaging/install | Not yet verified or published |
 
 ## License
