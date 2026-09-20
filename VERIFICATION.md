@@ -13,7 +13,7 @@ This record is intentionally narrow: it distinguishes commands actually run loca
 
 ## Not yet verified
 
-- GitHub Actions has not run because no GitHub repository has been created or pushed.
+- GitHub Actions run #1 on 2026-09-20 failed because its final help check still invoked the pre-rename command `repropack --help` (exit 127). The workflow is corrected in a subsequent commit; its resulting run must pass before CI can be reported as passing.
 - Windows and Linux have not been tested.
 - PyPI build, upload, and installation from a published distribution have not been attempted.
 - No external user feedback, adoption, downloads, stars, issues, contributors, or security review exists.

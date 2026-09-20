@@ -2,7 +2,7 @@
 
 FaultScribe is a small, local-first command-line tool for preparing developer-readable failure reports. It has no account, cloud service, telemetry, paid model API, source-code collection, or automatic uploads.
 
-**Status: 0.1.0 is a local development release candidate. It has not been published to PyPI or GitHub, and remote CI has not run. It is licensed under MIT.**
+**Status: 0.1.0 is available from this GitHub source repository and is not published to PyPI. It is licensed under MIT. See the repository's Actions tab for the current remote CI result.**
 
 ## What it does
 
@@ -78,7 +78,7 @@ The repository's status is deliberately split by evidence:
 | --- | --- |
 | Local unit tests | Passed on 2026-09-20: 14 tests with Python 3.9 |
 | Local command smoke tests | Passed on 2026-09-20: isolated install; `doctor`, `report`, and `redact`; synthetic Unicode input; source-log hash unchanged |
-| GitHub Actions CI | Not yet run; no public repository exists |
+| GitHub Actions CI | Runs on pushes and pull requests; check the repository Actions tab for the current remote result |
 | Windows/Linux behavior | Not yet verified on those platforms |
 | PyPI packaging/install | Not yet verified or published |
 
