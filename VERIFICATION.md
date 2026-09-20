@@ -13,7 +13,7 @@ This record is intentionally narrow: it distinguishes commands actually run loca
 
 ## Not yet verified
 
-- GitHub Actions run #1 on 2026-09-20 failed because its final help check still invoked the pre-rename command `repropack --help` (exit 127). The workflow is corrected in a subsequent commit; its resulting run must pass before CI can be reported as passing.
+- GitHub Actions run #1 on 2026-09-20 failed because its final help check still invoked the pre-rename command `repropack --help` (exit 127). The workflow was corrected in commit `24065d5`; run #2 for that commit passed on 2026-09-20, including package installation, the 14 unit tests, and `faultscribe --help`.
 - Windows and Linux have not been tested.
 - PyPI build, upload, and installation from a published distribution have not been attempted.
 - No external user feedback, adoption, downloads, stars, issues, contributors, or security review exists.
